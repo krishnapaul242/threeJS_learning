@@ -1,0 +1,27 @@
+{
+  "name": "threejs_learning",
+  "version": "1.0.0",
+  "description": "This project contains initial experiments and tutorials while self learning ThreeJS.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon --watch src --exec npx webpack"
+  },
+  "keywords": [
+    "ThreeJS",
+    "Typescript",
+    "Animation",
+    "WebGL"
+  ],
+  "author": "Krishna Paul",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "three": "^0.123.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
